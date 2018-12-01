@@ -3,7 +3,7 @@
 Home Automation Richard Selles
 Januari 2018
 
-versie 09-09-2018
+VERSION 09-09-2018 ... 
 
 */
 
