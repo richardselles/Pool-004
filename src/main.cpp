@@ -3,12 +3,12 @@
 Home Automation Richard Selles
 Januari 2018
 
-VERSION 09-09-2018 TOCH NIET!!  
+VERSION 09-09-2018 Bo Wil naar buiten
 
 */
 
 /*
-* Includes libraries
+* Includes libraries !!
 */
 
 #include <SPI.h>
