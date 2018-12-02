@@ -16,7 +16,7 @@ VERSION 01-12-2018
 #include <OneWire.h> // 1-wire temperatuur sensors
 #include <LiquidCrystal_I2C.h> // I2C LCD Display
 #include <Wire.h> // I2C RTC
-#include "RTClib.h" //RTC
+#include "RTClib.h" //RTC 
 RTC_DS1307 RTC;
 
 
@@ -442,6 +442,7 @@ void ReadTemperatureSensors() {
 	}
 }
 
+// show debug data
 void EchoData() {
 	if (debugminimum) {
 		Serial.print("[");
