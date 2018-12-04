@@ -329,7 +329,7 @@ void ReadPressureSensor() {
 
 void ReadTemperatureSensors() {
 	byte counter;
-	byte present = 0;
+	byte present;
 	byte sensor_type;
 	byte tdata[12];
 	byte addr[8];
