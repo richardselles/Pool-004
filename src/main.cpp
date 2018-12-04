@@ -8,7 +8,7 @@ VERSION 01-12-2018
 */
 
 /*
-* Includes libraries
+* Includes libraries - richard selles tijdelijke text!
 */
 
 #include <SPI.h>
