@@ -1,7 +1,7 @@
 /*
 
 Home Automation Richard Selles
-Januari 2018
+December 2019
 
 VERSION 01-12-2018
 
