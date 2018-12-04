@@ -17,7 +17,7 @@ VERSION 01-12-2018
 #include <LiquidCrystal_I2C.h> // I2C LCD Display
 #include <Wire.h> // I2C RTC
 #include "RTClib.h" //RTC 
-RTC_DS1307 RTC;
+RTC_DS1307 RTC;  
 
 
 
