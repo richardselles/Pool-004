@@ -8,7 +8,7 @@ VERSION 01-12-2018
 */
 
 /*
-* Includes libraries RICHARD
+* Includes libraries
 */
 
 #include <SPI.h>
@@ -329,7 +329,6 @@ void ReadPressureSensor() {
 
 void ReadTemperatureSensors() {
 	byte counter;
-	byte present;
 	byte sensor_type;
 	byte tdata[12];
 	byte addr[8];
@@ -386,7 +385,7 @@ void ReadTemperatureSensors() {
 
 		delay(1000);     // maybe 750ms is enough, maybe not (original 1000)
 
-		present = ds.reset();
+		ds.reset();
 		ds.select(addr);
 		ds.write(0xBE);  // Read Scratchpad
 
